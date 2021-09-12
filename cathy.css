@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+html,
+body {
+    height: cover:
+}
+
+/*header*/
+header {
+    background: rgb(75, 3, 27);
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    color: #f5eded;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*links*/
+nav {
+    padding: 10px;
+}
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+}
+nav li a {
+    text-decoration: none;
+    margin: 0 10px;
+    color:black;
+    font: weight 800px;
+}
+nav li a:visited {
+    color: rgb(95, 131, 197);
+}
+
+/*body*/
+main {
+    background-image: url("images/Background.jpg");
+    padding: 30px;
+    background-position: center;
+    background-size: cover;
+}
+
+.sub-title {
+    background-color:rgba(0,0,0,0.5);
+    padding: 40px;
+    color: white;
+    line-break: none;
+    font-weight: 200px;
+}
+
+h2 {
+    font-weight: 800;
+    color: rgb(17, 3, 3);
+    font-size: 75px;
+}
