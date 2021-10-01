@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="form.css" type="text/css"/>
+</head>
+<body>
+    <header class="header">
+        <h1 id="title" class="title">BayCoding Survey Form 
+        </h1>
+        <p id="description" class="about">This aims at giving all our users a better coding experience</p>
+    </header>
+    
+    <form id="survey-form">
+        <div class="form">
+            <label id="name-label" for="name">Name</label>
+
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+        <div class="form">
+            <label id="email-label" for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+        <div>
+            <label id="number-label" for="number">Age</label>
+            <input type="number" id="number" min="12" max="99" name="age" placeholder="Age">
+        </div>
+        <div class="form">
+            <p>What is your level of learning web development?</p>
+            <select id="dropdown" value="level" required>
+                <option disabled selected value>Select  level of learning</option>
+                <option value="beginner">Beginner</option>
+                <option value="internediate">Intermediate</option>
+                <option value="Advanced">Advanced</option>
+            </select>
+        </div>
+        <div class="form">
+            <select id="checkbox" value="improvements" required>
+
+            </select>
+        </div>
+
+    </form>
+
+    
+</body>
+</html>
