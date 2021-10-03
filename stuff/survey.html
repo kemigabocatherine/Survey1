@@ -38,6 +38,24 @@
             </select>
         </div>
         <div class="form">
+            <p>Would you recoment BayCoding to a friend?</p>
+            <label>
+                <input value="totally" name="user-recommended" type="radio">Totally
+            </label>
+            <label>
+                <input name="user-recommended" value="probably" type="radio">Probably
+            </label>
+            <label>
+                <input name="user-recommended" value="I think so" type="radio">I think so
+            </label>
+            <label>
+                <input name="user-recommended" value="Not sure" type="radio">Not sure
+            </label>
+            <label>
+                <input name="user-recommended" value="No" type="radio">No
+            </label>
+        </div>
+        <div class="form">
             <p>What improvements would you like to be made?</p>
                 <label>
                     <input value="projects" type="checkbox">Back-end projects
@@ -63,8 +81,9 @@
             <p>Any other comments and suggestions.</p>
             <textarea id="comments" name="comment" class="input-text area" placeholder="Enter your comment" ></textarea>
         </div>
-
-
+        <div class="form">
+            <button id="submit">Submit</button>
+        </div>
     </form>
 
     
